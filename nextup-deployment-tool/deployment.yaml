@@ -1,0 +1,19 @@
+steps:
+- id: step1
+  name: Test Command 1
+  command: echo 'Test Command 1 executed'
+  working_directory: '~'
+  terminal: true
+  wait: true
+- id: step2
+  name: Long Running Test
+  command: for i in {1..10}; do echo "Running $i"; sleep 2; done
+  working_directory: '~'
+  terminal: true
+  wait: true
+- id: step3
+  name: Test Command 3
+  command: echo 'Test Command 3 executed'
+  working_directory: '~'
+  terminal: true
+  wait: true

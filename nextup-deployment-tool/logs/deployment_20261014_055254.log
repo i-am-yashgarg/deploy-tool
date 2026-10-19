@@ -1,0 +1,24 @@
+========================================
+NEXTUP ROBOTICS DEPLOYMENT
+Started: 2026-10-14 05:52:54
+========================================
+● Step 1: RUNNING
+
+========== STEP1 ==========
+Starting: Test Command 1
+Terminal opened for: Test Command 1
+Actual command PID: 19443
+✓ Step step1 finished.
+✓ Test Command 1 started/completed successfully
+● Step 2: RUNNING
+
+========== STEP2 ==========
+Starting: Long Running Test
+Terminal opened for: Long Running Test
+Actual command PID: 19646
+Stopping [step2] PID 19646...
+
+========================================
+■ DEPLOYMENT STOPPED
+All active processes were terminated.
+========================================

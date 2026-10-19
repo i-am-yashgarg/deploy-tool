@@ -1,0 +1,50 @@
+========================================
+NEXTUP ROBOTICS DEPLOYMENT
+Started: 2026-10-14 05:24:23.023443
+========================================
+● Step 1: RUNNING
+
+========== STEP 1 ==========
+Starting: Test Command 1
+$ echo 'Test Command 1 executed'
+Test Command 1 executed
+NEXTUP_COMMAND_EXIT=0
+✓ Step step1: SUCCESS
+✓ Test Command 1 completed successfully
+● Step 2: RUNNING
+
+========== STEP 2 ==========
+Starting: Long Running Test
+$ for i in {1..10}; do echo "Running $i"; sleep 2; done
+Step 2 is a long-running process.
+Step 2 will remain active.
+● Step 3: RUNNING
+
+========== STEP 3 ==========
+Starting: Test Command 3
+$ echo 'Test Command 3 executed'
+[step2] Running 1
+Test Command 3 executed
+NEXTUP_COMMAND_EXIT=0
+✓ Step step3: SUCCESS
+✓ Test Command 3 completed successfully
+
+========================================
+✓ DEPLOYMENT SEQUENCE COMPLETED
+All configured steps have been started.
+Long-running processes remain active.
+========================================
+[step2] Running 2
+[step2] Running 3
+[step2] Running 4
+[step2] Running 5
+[step2] Running 6
+[step2] Running 7
+[step2] Running 8
+[step2] Running 9
+[step2] Running 10
+✓ Background process [step2] exited normally.
+
+========================================
+✓ ALL PROCESSES FINISHED
+========================================

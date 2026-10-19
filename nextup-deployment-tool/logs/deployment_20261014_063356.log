@@ -1,0 +1,14 @@
+========================================
+NEXTUP ROBOTICS DEPLOYMENT
+Started: 2026-10-14 06:33:56
+========================================
+● Step 1: RUNNING
+
+========== STEP1 ==========
+Starting: Test Command 1
+ERROR: Could not track actual process for step1.
+✗ Step step1 failed.
+
+========================================
+✗ DEPLOYMENT FAILED
+========================================
